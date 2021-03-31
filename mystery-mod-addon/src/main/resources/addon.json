@@ -1,0 +1,7 @@
+{
+  "name" : "MysteryMod-Example-Addon",
+  "version" : "1.0.0",
+  "description" : "Your-Description",
+  "authors"  : ["Manuel Kollus"],
+  "mainClass" : "net.mysterymod.example.addon.ExampleAddon"
+}
