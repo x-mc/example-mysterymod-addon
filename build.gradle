@@ -32,10 +32,6 @@ subprojects {
     maven {
       name = "xmod-repository"
       url = uri("https://nexus.mysterymod.dev/repository/maven-releases/")
-      credentials {
-        username = project.findProperty("mysterymod.nexus.user") ?: System.getenv("NEXUS_USER")
-        password = project.findProperty("mysterymod.nexus.password") ?: System.getenv("NEXUS_PASSWORD")
-      }
     }
   }
 
